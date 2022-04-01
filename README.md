@@ -3,7 +3,7 @@ Software para análise da incerteza de medição de medidas indiretas pelo méto
 Desenvolvido como trabalho de conclusão de curso em Engenharia Elétrica pela UFSC.
 
 # Sobre
-O programa tem como finalidade a criação de populações para cada entrada de um modelo matemático por meio das respectivas distribuições de probabilidade dos valores medidos de forma direta. Com as populações criadas o cálculo do modelo matemático é feito para individuo da população afim de obter um conjunto de possível resultados.
+O programa tem como finalidade a criação de populações para cada entrada de um modelo matemático por meio das respectivas distribuições de probabilidade dos valores medidos de forma direta. Com as populações criadas o cálculo do modelo matemático é feito para cada indivíduo da população afim de obter um conjunto de possível resultados.
 
 # Utilização
 A utilização do sistema consiste na definição inicial de três parâmetros:
@@ -29,6 +29,15 @@ O programa foi dividido da seguinte forma para possibilitar alterações futuras
 
 # Equipamentos cadastrados
 - Yokogawa WT500 (Corrente, tensão, potência e frequência);
-- HBM T40B (Torque e velocidade rotativa);
+- HBM T40B (Torque e velocidade rotacional);
 - Agilent 34410A (Resistência);
 - Yokogawa GP10 (Temperatura).
+
+# Pendências
+- Implementar o uso de multiprocessos para o equacionamento dos modelos de cálculo
+- Trocar alguns métodos para Class Method e Static Method
+- Usar decorators para deixar o código mais "simplificado"
+- Gerar o relatório para a interface
+- Repensar na estrutura da saída do programa
+- Alterar a declaração de alguns kwargs pendentes
+- Comentar o código pq a situação ta triste hahaha
