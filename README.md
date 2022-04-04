@@ -13,6 +13,9 @@ A utilização do sistema consiste na definição inicial de três parâmetros:
 
 Finalizado os cálculos o operador poderá selecionar a forma de visualização dos dados, os parâmetros e gerar um relatório com as informações pertinentes.
 
+# Versão experimental
+Execute o módulo FEIMC.py ao invés do principal \_\_main\_\_.py para conferir o status atual do programa.
+
 # Estrutura do programa
 O programa foi dividido da seguinte forma para possibilitar alterações futuras:
 - \_\_main\_\_.py - Arquivo inicial do programa;
