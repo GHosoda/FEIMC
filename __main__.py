@@ -13,26 +13,16 @@ from sre_compile import isstring
 import numpy as np
 import pandas as pd
 from copy import deepcopy
-import dic_equip
-import funcoes
+from Calculo import IEEE112 as funcoes
 import statsmodels.api as sm
-from ui_interface import Ui_MainWindow
-from interface_cadastrar import Ui_Cadastro
-from interface_nova import Ui_MainWindow
+
+from Interface.interface_cadastrar import Ui_Cadastro
+from Interface.interface_nova import Ui_MainWindow
 from PyQt6 import QtCore, QtGui, QtWidgets
 from datetime import date
 from pathlib import Path
 from inspect import getmembers, isclass
 from FEIMC import FEIMC
-
-
-############################################################
-# %%                CRIAÇÃO DAS CLASSES
-############################################################
-class Plot:
-    def __init__(self, dfs, tipo_plot):
-        self.__dfs = dfs
-        self.__tipo_plot = tipo_plot
 
 
 ############################################################
